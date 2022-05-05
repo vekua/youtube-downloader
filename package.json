@@ -1,0 +1,19 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "content-disposition": "^0.5.4",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "ytdl-core": "^4.11.0"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Youtube Video Downloader</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="/" class="logo">Youtube Video Downloader</a>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+
+    </ul>
+
+
+    <div class="container downloader">
+        <form class="form" action="/download" method="POST">
+            <div class="input-field inline">
+                <input id="url" type="text" name="url">
+                <label for="url">Url</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Enter the video url, select format,
+                    click download
+                    and
+                    here you go!</span>
+            </div>
+
+            <div class="input-field">
+                <select id="format">
+
+                    <option value="mp4" selected>Mp4</option>
+
+                    <option value="mp3">Mp3</option>
+
+                </select>
+                <label>Select format</label>
+            </div>
+            <input type="text" name="format" class="format">
+            <button class="waves-effect waves-light btn" type="submit">submit</button>
+        </form>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

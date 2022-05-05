@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidenav-trigger {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.format {
+display: none;
+}
+
+.downloader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.input-field.inline {
+    margin-left: 0;
+}
+
+.brand-logo {
+    width: 100% !important;
+}
+
+.logo {
+    font-size: 24px;
+}
